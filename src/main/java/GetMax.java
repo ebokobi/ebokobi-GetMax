@@ -11,7 +11,7 @@ public class GetMax {
         for (int i : arr) {
             max = arr[i];
             if (i > max) {
-                max = i;
+                max = arr[i];
             }
         }
         return max;
