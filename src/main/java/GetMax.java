@@ -9,7 +9,8 @@ public class GetMax {
     public int max(int[] arr){
         int max = 0;
         for (int i : arr) {
-            if(i > max) {
+            max = i;
+            if (i > max) {
                 max = i;
             }
         }
