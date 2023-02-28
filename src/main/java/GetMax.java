@@ -8,10 +8,11 @@ public class GetMax {
      */
     public int max(int[] arr){
         int max = 0;
-        for (int i : arr) {
-            if(i > max) {
-                max = i;
-            }
+        for (Integer i : arr) {
+            max = i.MAX_VALUE
+            // if(i > max) {
+            //     max = i;
+            // }
         }
         return max;
     }
